@@ -1,0 +1,20 @@
+In mathematics, especially order theory, a partially ordered set (also poset) formalizes and generalizes the intuitive concept of an ordering, sequencing, or arrangement of the elements of a set. A poset consists of a set together with a binary relation indicating that, for certain pairs of elements in the set, one of the elements precedes the other in the ordering. The word "partial" in the names "partial order" or "partially ordered set" is used as an indication that not every pair of elements need be comparable. That is, there may be pairs of elements for which neither element precedes the other in the poset. Partial orders thus generalize total orders, in which every pair is comparable.
+
+To be a partial order, a binary relation must be reflexive (each element is comparable to itself), antisymmetric (no two different elements precede each other), and transitive (the start of a chain of precedence relations must precede the end of the chain).
+
+One familiar example of a partially ordered set is a collection of people ordered by genealogical descendancy. Some pairs of people bear the descendant-ancestor relationship, but other pairs of people are incomparable, with neither being a descendent of the other.
+
+A poset can be visualized through its Hasse diagram, which depicts the ordering relation
+A (non-strict) partial order[2] is a binary relation ≤ over a set P satisfying particular axioms which are discussed below. When a ≤ b, we say that a is related to b. (This does not imply that b is also related to a, because the relation need not be symmetric.)
+
+The axioms for a non-strict partial order state that the relation ≤ is reflexive, antisymmetric, and transitive. That is, for all a, b, and c in P, it must satisfy:
+
+    a ≤ a (reflexivity: every element is related to itself).
+    if a ≤ b and b ≤ a, then a = b (antisymmetry: two distinct elements cannot be related in both directions).
+    if a ≤ b and b ≤ c, then a ≤ c (transitivity: if a first element is related to a second element, and, in turn, that element is related to a third element, then the first element is related to the third element).
+
+In other words, a partial order is an antisymmetric preorder.
+
+A set with a partial order is called a partially ordered set (also called a poset). The term ordered set is sometimes also used, as long as it is clear from the context that no other kind of order is meant. In particular, totally ordered sets can also be referred to as "ordered sets", especially in areas where these structures are more common than posets.
+
+For a, b, elements of a partially ordered set P, if a ≤ b or b ≤ a, then a and b are comparable. Otherwise they are incomparable. In the figure on top-right, e.g. {x} and {x,y,z} are comparable, while {x} and {y} are not. A partial order under which every pair of elements is comparable is called a total order or linear order; a totally ordered set is also called a chain (e.g., the natural numbers with their standard order). A subset of a poset in which no two distinct elements are comparable is called an antichain (e.g. the set of singletons {{x}, {y}, {z}} in the top-right figure). An element a is said to be covered by another element b, written a<:b, if a is strictly less than b and no third element c fits between them; formally: if both a≤b and a≠b are true, and a≤c≤b is false for each c with a≠c≠b. A more concise definition will be given below using the strict order corresponding to "≤". For example, {x} is covered by {x,z} in the top-right figure, but not by {x,y,z}.
